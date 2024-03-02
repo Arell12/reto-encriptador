@@ -1,3 +1,4 @@
 <h1>Reto encriptador</h1>
 - Estado del proyecto: En construcción.
-      -Inicio del html
+      -Estructura basica de html 
+      -Imagenes añadidas
