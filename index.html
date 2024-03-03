@@ -4,27 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
 </head>
 
 <body>
     
     <header>
-        <img src="img/LogoAlura.png" alt="Logo alura">
-        <h1>Encriptador</h1>
+        <img id="logoH" src="img/LogoAlura.png" alt="Logo alura">
+        <h1 id="tituloH">Encriptador</h1>
     </header>
 
-    <section>
-        <textarea placeholder="Ingresa en texto aqui"></textarea >
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
+    <section class="encriptar">
+        <textarea id="teclado" cols="50" rows="16">Ingrese el texto aquí</textarea >
+        <p id="textInforma">&#33;Solo letras minúsculas y sin acentos</p>
+        <button class="btnEjec">Encriptar</button>
+        <button class="btnEjec">Desencriptar</button>
     </section>
 
-    <section>
-        <textarea></textarea>
-        <img src="/img/Muñeco.png" alt="Personaje con una lupa">
-        <h3>Ningún mensaje fue encontrado</h3>
-        <p>Ingresa el texto que desees encriptar o desencriptar</p>   
+    <section class="resultado">
+        <textarea disabled></textarea>
+        <img id="imgenResultado" src="/img/Muñeco.png" alt="Personaje con una lupa">
+        <p class="textoResultado">Ningún mensaje fue encontrado</p>
+        <p class="textoResultado">Ingresa el texto que desees encriptar o desencriptar</p>   
 
         <button>Copiar</button>
     </section>
