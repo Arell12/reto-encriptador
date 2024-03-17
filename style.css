@@ -1,6 +1,8 @@
 header{
-    width: 300px;
+    display: inline-block;
+    width: 40%;
     background-color: #EBEDF0;
+    
 }
 
 #logoH{
@@ -13,18 +15,21 @@ header{
     font-weight: bold;
     font-size: 30px;
     color: #0a3870;
-  
 
 }
 
 body{
     background-color: #EBEDF0;
+    
+
+   
 }
 
 .encriptar{
     display: inline-block;
-    vertical-align: top;
-    width: 700px;
+    margin: 0 0 0 0;
+    
+    width: 60%;
 }
 
 #teclado{
@@ -36,8 +41,6 @@ body{
     background-color: #EBEDF0 ;
     resize: none;
     outline: none;
-    
-
 }
 #textInforma{
     margin: 0px 0px 10px 100px;
@@ -56,9 +59,36 @@ body{
 }
 
 .resultado{
+   
     display: inline-block;
-    width: 40%;
-    margin: 0;
+    width: 30%;
+    height: 40%;
     background-color: white;
+    border-radius: 30px;
+    margin-top: 0%;
+    flex-grow: 1;
+    
+}
 
+
+.textoResultado{
+    color: #072B61;
+    text-align: center;
+    margin: 0 ;
+    margin-bottom: 10px;
+}
+
+#resultadoTitulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copiar{
+    margin-left: 25%;
+    margin-bottom: 3%;
+    padding: 12px 75px;
+    background-color: #0a3870;
+    border: none;
+    border-radius: 10px;
+    color:white;
 }
