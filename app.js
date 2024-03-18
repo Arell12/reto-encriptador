@@ -51,6 +51,15 @@ function desencriptar(){
     }
 }
 
+async function portapapeles(){
+    let resultado=document.getElementById("userResultado").value;
+    try {
+      await navigator.clipboard.writeText(resultado);
+    } catch (err) {
+      console.error('Error al copiar: ', err);
+    }
+}
+
 function limpiarResultado(){
     let resultado=document.getElementById("userResultado");
     let imagen=document.getElementById("imgenResultado");
