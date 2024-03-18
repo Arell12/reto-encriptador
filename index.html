@@ -17,14 +17,14 @@
     </header>
 
     <section class="encriptar">
-        <textarea id="teclado" cols="50" rows="16">Ingrese el texto aquí</textarea >
+        <textarea id="teclado" cols="50" rows="16" placeholder="Ingrese el texto aquí"></textarea >
         <p id="textInforma">&#33;Solo letras minúsculas y sin acentos</p>
-        <button class="btnEjec">Encriptar</button>
-        <button class="btnEjec">Desencriptar</button>
+        <button type="button" class="btnEjec" onclick="encriptar()">Encriptar</button>
+        <button type="button" class="btnEjec" onclick="desencriptar()">Desencriptar</button>
     </section>
 
     <section class="resultado">
-        <textarea disabled style="visibility: visible;" id="userResultado"></textarea>
+        <textarea disabled style="visibility:hidden;" id="userResultado" ></textarea>
         <img id="imgenResultado" src="/img/Muñeco.png" alt="Personaje con una lupa">
         <p class="textoResultado" id="resultadoTitulo">Ningún mensaje fue encontrado</p>
         <p class="textoResultado">Ingresa el texto que desees encriptar o desencriptar</p>   
@@ -36,7 +36,10 @@
 
 
     </footer>
+    
+    <script src="app.js"></script>
 </body>
+
 
 
 </html>

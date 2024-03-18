@@ -52,10 +52,16 @@ body{
    margin: 7px 0px 0px 100px;
    padding: 12px 75px;
    background-color: #0a3870;
-   border: none;
+   border:none;
    border-radius: 10px;
    color:white;
+   cursor: pointer;
 
+}
+
+.btnEjec:hover{
+    background-color: #356AE9;
+    transition: background-color 0.5s;
 }
 
 .resultado{
@@ -68,6 +74,15 @@ body{
     margin-top: 0%;
     flex-grow: 1;
     
+}
+
+#userResultado{
+    font-size: 20px;
+    color: #0a3870;
+    border-style: hidden;
+    background-color: white;
+    resize: none;
+    outline: none;
 }
 
 
@@ -84,11 +99,19 @@ body{
 }
 
 .copiar{
+    
     margin-left: 25%;
     margin-bottom: 3%;
     padding: 12px 75px;
-    background-color: #0a3870;
-    border: none;
+    background-color:white ;
+    border-style: solid;
+    border-color: #356AE9;
     border-radius: 10px;
-    color:white;
+    color:#0a3870;
+    cursor: pointer;
+}
+.copiar:hover{
+    background-color: #356AE9;
+    transition: background-color 0.5s;
+    color: #EBEDF0;
 }
