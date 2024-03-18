@@ -115,3 +115,19 @@ body{
     transition: background-color 0.5s;
     color: #EBEDF0;
 }
+
+
+@media screen and (max-width:480px) {
+    #logoH{
+        width: 30%;
+        height: 2%;
+        
+     }
+    .encriptar, .resultado{
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
