@@ -1,6 +1,6 @@
 # 🔐 Encriptador y Desencriptador de Texto
 
-Este es un proyecto web desarrollado durante el programa de [Alura Latam]. Se trata de una aplicación sencilla que permite **encriptar** y **desencriptar** textos siguiendo reglas predefinidas, ideal para practicar lógica de programación y manipulación del DOM con **HTML**, **CSS** y **JavaScript**.
+Este es un proyecto web desarrollado durante el programa de Alura Latam. Se trata de una aplicación sencilla que permite **encriptar** y **desencriptar** textos siguiendo reglas predefinidas, ideal para practicar lógica de programación y manipulación del DOM con **HTML**, **CSS** y **JavaScript**.
 
 ## 🧩 Funcionalidad
 
